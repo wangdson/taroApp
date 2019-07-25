@@ -1,0 +1,41 @@
+    
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+todo
+.entry
+.happypack
+_package
+_dist
+yarn.lock
+/_tmp
+package-lock.json
+.tea
+.vscode
+.history
+
+deploy_versions/
+.temp/
+.rn_temp/
+/build/
+/dist/
+/test/**/*

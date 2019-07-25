@@ -1,0 +1,44 @@
+{
+  "extends": ["taro"],
+  "globals": {
+    "my": true,
+    "wx": true,
+    "Page": true,
+    "App": false,
+    "getApp": true,
+    "Component": true,
+    "localStorage": true,
+    "parseInt": true,
+    "getCurrentPages": false,
+  },
+  "rules": {
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "semi": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
+    "keyword-spacing": ["error", { "before": true }],
+    "space-before-function-paren": 0,
+    "object-curly-spacing": ["error", "always"],
+    "space-infix-ops": ["error", {"int32Hint": true}],
+    "padded-blocks": ["error", "never"],
+    "no-var": 2,
+    "no-undef": 2,
+    "no-tabs": 0,
+    "no-unneeded-ternary": 0,
+    "no-extra-boolean-cast": 0,
+    "jsx-quotes": 0,
+    "import/prefer-default-export": 0,
+    "react/no-unused-state": 0,
+    "no-unused-vars": 0,
+    "no-shadow": 0,
+    // "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "useJSXTextNode": true,
+    "project": "./tsconfig.json"
+  }
+  }
